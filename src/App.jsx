@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
-import Banner from "./components/banner/banner";
+import Banner from "./components/banner/Banner";
 import Pricing from "./components/pricing/Pricing";
 import About from "./components/about/About";
 import Services from "./components/services/Services";
