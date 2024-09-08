@@ -1,0 +1,27 @@
+@import "../../styles/mixins.scss";
+
+.banner{
+    padding-block: 5rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+
+    @include respond (phone){
+        margin: 0;
+        padding: 5rem 0rem;
+        font-size: .8rem;
+        line-height: .6;
+    }
+
+
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 3rem 2rem;
+        flex-wrap: nowrap;
+        
+    }
+}

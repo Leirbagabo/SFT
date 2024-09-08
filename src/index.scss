@@ -2,7 +2,7 @@
 
 :root {
   --spanish-gray: #969696;
-  --cutured: #f6f6f6;
+  --cultured: #f6f6f6;
   --black: #151515;
   --eerie-black: #1b1b1b;
   --black-olive: #383f3e;
@@ -71,7 +71,7 @@ h6 {
   transition: all 0.3s ease;
   display: inline-block;
 
-  &hover {
+  &:hover {
     border-color: #3fe8ab;
     background: transparent;
     color: var(--cutured) !important;
